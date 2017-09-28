@@ -1,0 +1,9 @@
+services:
+    _defaults:
+        autowire: true
+
+    Kutny\DateTimeBundle\DateIntervalFactory:
+
+    Kutny\DateTimeBundle\DateTimeFactory:
+        arguments:
+            - '%kutny_datetime.app_timezone%'
